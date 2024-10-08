@@ -1,0 +1,27 @@
+import React from 'react'
+
+const Project = ({title, url, git}) => {
+  return (
+    
+    <div className=" max-w-96 rounded-lg grid place-content-center text-center invert">
+        <div className="  bg-cover bg-no-repeat place-self-center">
+            {/* <img className="xs:h-10 sm:h-12 drop-shadow-[0px_-2px_0px_var(--tw-shadow-color)] shadow-white rounded-t-lg transition-all" src={src} alt={title} /> */}
+        </div>
+        <div className="p-2 text-center">
+            <p className="text-center xs:text-[8px]  sm:text-sm uppercase font-bold">
+            {title}
+            </p>
+            <a className="text-center xs:text-[8px]  sm:text-sm uppercase font-bold">
+            {url}
+            </a>
+            <a className="text-center xs:text-[8px]  sm:text-sm uppercase font-bold">
+            {git}
+            </a>
+        </div>
+    </div>
+
+ 
+  )
+}
+
+export default Project
