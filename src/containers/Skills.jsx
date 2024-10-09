@@ -3,8 +3,8 @@ import Skill from '../components/Skill'
 
 const Skills = () => {
   return (
-    <section id='skills' className='  h-dvh snap-start snap-always grid min-h-[600px]  items-center text-center transition-all'>
-        <div className='bg-red-700 h-full  text-center  dark:bg-black bg-blend-overlay dark:bg-blend-multiply bg-cover  grid place-content-center p-10'>
+    <section id='skills' className=' col-span-3 transition-all md:col-span-1  h-dvh snap-start snap-always grid min-h-[600px]  items-center text-center transition-all'>
+        <div className='bg-black h-full  text-center  dark:bg-black bg-blend-overlay dark:bg-blend-multiply bg-cover  grid place-content-center p-10'>
             <img src='brain.png' className=' invert place-self-center pb-3 max-w-80 xs:w-2/6 sm:w-2/6' />
             <h1 className='font-nectarine text-white pb-5  drop-shadow-[0px_-2px_0px_var(--tw-shadow-color)] shadow-black tracking-widest text-4xl  text-center font-bold '>
               Skills

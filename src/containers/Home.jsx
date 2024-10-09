@@ -7,7 +7,7 @@ import Projects from './Projects'
 
 const Home = () => {
   return (
-    <div className=' grid xs:grid-cols-1 md:grid-cols-2 snap-y snap-mandatory duration-500 h-screen w-screen overflow-x-hidden'>
+    <div className=' grid grid-cols-3 snap-y snap-mandatory duration-500 h-screen w-screen overflow-x-hidden'>
         <Banner />
         <Landing />
         <Skills />

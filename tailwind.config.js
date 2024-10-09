@@ -11,6 +11,9 @@ export default {
         'grainy-black': "url('public/black.svg')",
         'grainy-white': "url('public/white.svg')"
        },
+       colors: {
+        'offwhite': '#fbf0d9',
+      },
       fontFamily: {
         madami: ['Madimi One', "sans"],
         pacifico: ['Pacifico', 'cursive'],

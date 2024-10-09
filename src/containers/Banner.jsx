@@ -2,11 +2,11 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <section id="banner" className=' h-dvh     grid min-h-[600px]  items-center text-center snap-always snap-start'>
-        <div className='bg-black opacity-100  dark:bg-black  dark:bg-screen bg-cover h-full flex items-center justify-center'>
+    <section id="banner" className=' h-dvh  col-span-3   grid items-center text-center snap-always snap-start'>
+        <div className='bg-offwhite opacity-100  dark:bg-black  dark:bg- bg-cover h-full flex items-center justify-center'>
       
 
-              <img className='p-10 mix-blend-luminosity sm:h-svh sm:w-auto sm:max-h-[500px] 'src='banner-pc.png' />
+              <img className='p-10 mix-blend- sm:h-svh sm:w-auto sm:max-h-[500px] 'src='banner-pc.png' />
 
 
 
@@ -16,4 +16,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default Banner 
